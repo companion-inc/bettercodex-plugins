@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BetterCodex addon manifest",
+  "type": "object",
+  "required": ["type", "name", "description", "author", "version", "tags"],
+  "additionalProperties": false,
+  "properties": {
+    "type": {"enum": ["plugin", "theme", "skill"], "description": "The kind of mod."},
+    "name": {"type": "string", "minLength": 1, "description": "Display name."},
+    "description": {"type": "string", "minLength": 10, "description": "One or two sentences."},
+    "author": {"type": "string", "minLength": 1, "description": "Your name or handle."},
+    "version": {"type": "string", "description": "Semver, e.g. 1.0.0."},
+    "tags": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "file": {"type": "string", "description": "For plugin/theme: the addon file in this folder (foo.plugin.js / foo.theme.css)."},
+    "source": {"type": "string", "description": "Optional link to the addon's own repo."},
+    "homepage": {"type": "string", "description": "Optional homepage."},
+    "updatedAt": {"type": "string", "description": "YYYY-MM-DD."}
+  }
+}
