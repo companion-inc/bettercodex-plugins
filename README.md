@@ -1,8 +1,8 @@
-# BetterCodex Store
+# BetterCodex Mods
 
 The community registry of **plugins, themes, and skills** for [BetterCodex](https://github.com/companion-inc/bettercodex) — a BetterDiscord‑style mod platform for the Codex desktop app.
 
-Everything in the [BetterCodex marketplace](https://bettercodex-web.companion-inc.workers.dev) comes from this repo. There is no upload form and no "submit an issue" — you add your mod with a **pull request**, CI checks it, a maintainer merges, and it's live. This repo is intentionally separate from the BetterCodex app code so the store stays community‑owned.
+Everything in the [BetterCodex marketplace](https://bettercodex-web.companion-inc.workers.dev) comes from this repo. There is no upload form and no "submit an issue" — you add your mod with a **pull request**, CI checks it, a maintainer merges, and it's live. This repo is intentionally separate from the BetterCodex app code so the registry stays community‑owned.
 
 ## Mod types
 
@@ -40,7 +40,7 @@ addons/<type>s/<id>/manifest.json   ← you add this in a PR
         ▼
    catalog.json                     ← generated, committed
         │
-   raw.githubusercontent.com/companion-inc/bettercodex-store/main/catalog.json
+   raw.githubusercontent.com/companion-inc/bettercodex-mods/main/catalog.json
         ▼
    BetterCodex marketplace site + desktop client
 ```
@@ -48,8 +48,8 @@ addons/<type>s/<id>/manifest.json   ← you add this in a PR
 Skills additionally install through Codex directly:
 
 ```bash
-codex plugin marketplace add companion-inc/bettercodex-store
-codex plugin add <skill-name>@bettercodex-store
+codex plugin marketplace add companion-inc/bettercodex-mods
+codex plugin add <skill-name>@bettercodex-mods
 ```
 
 ## Local checks

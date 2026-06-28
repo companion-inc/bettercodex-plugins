@@ -1,7 +1,7 @@
 {
-  "name": "bettercodex-store",
+  "name": "bettercodex-mods",
   "interface": {
-    "displayName": "BetterCodex Store"
+    "displayName": "BetterCodex Mods"
   },
   "plugins": [
     {
