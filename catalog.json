@@ -16,8 +16,8 @@
       ],
       "homepageUrl": null,
       "updatedAt": "2026-06-28",
-      "sourceUrl": "https://github.com/companion-inc/bettercodex-mods/tree/main/bettercodex-skills/skills/failing-test-first",
-      "install": "codex plugin marketplace add companion-inc/bettercodex-mods",
+      "sourceUrl": "https://github.com/companion-inc/bettercodex-plugins/tree/main/bettercodex-skills/skills/failing-test-first",
+      "install": "codex plugin marketplace add companion-inc/bettercodex-plugins",
       "skillPath": "bettercodex-skills/skills/failing-test-first"
     },
     {
@@ -34,8 +34,8 @@
       ],
       "homepageUrl": null,
       "updatedAt": "2026-06-28",
-      "sourceUrl": "https://github.com/companion-inc/bettercodex-mods/tree/main/bettercodex-skills/skills/pr-ready",
-      "install": "codex plugin marketplace add companion-inc/bettercodex-mods",
+      "sourceUrl": "https://github.com/companion-inc/bettercodex-plugins/tree/main/bettercodex-skills/skills/pr-ready",
+      "install": "codex plugin marketplace add companion-inc/bettercodex-plugins",
       "skillPath": "bettercodex-skills/skills/pr-ready"
     },
     {
@@ -52,8 +52,8 @@
       ],
       "homepageUrl": null,
       "updatedAt": "2026-06-28",
-      "sourceUrl": "https://github.com/companion-inc/bettercodex-mods/tree/main/bettercodex-skills/skills/repo-warmup",
-      "install": "codex plugin marketplace add companion-inc/bettercodex-mods",
+      "sourceUrl": "https://github.com/companion-inc/bettercodex-plugins/tree/main/bettercodex-skills/skills/repo-warmup",
+      "install": "codex plugin marketplace add companion-inc/bettercodex-plugins",
       "skillPath": "bettercodex-skills/skills/repo-warmup"
     },
     {
@@ -70,8 +70,8 @@
       ],
       "homepageUrl": null,
       "updatedAt": "2026-06-28",
-      "sourceUrl": "https://github.com/companion-inc/bettercodex-mods/tree/main/bettercodex-skills/skills/thread-checkpoint",
-      "install": "codex plugin marketplace add companion-inc/bettercodex-mods",
+      "sourceUrl": "https://github.com/companion-inc/bettercodex-plugins/tree/main/bettercodex-skills/skills/thread-checkpoint",
+      "install": "codex plugin marketplace add companion-inc/bettercodex-plugins",
       "skillPath": "bettercodex-skills/skills/thread-checkpoint"
     }
   ]

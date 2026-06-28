@@ -1,20 +1,20 @@
-# BetterCodex Mods
+# BetterCodex Plugins
 
-The community registry of **plugins, themes, and skills** for [BetterCodex](https://github.com/companion-inc/bettercodex) — a BetterDiscord‑style mod platform for the Codex desktop app.
+The community registry of **plugins, themes, and skills** for [BetterCodex](https://github.com/companion-inc/bettercodex) — a BetterDiscord‑style plugin platform for the Codex desktop app.
 
-Everything in the [BetterCodex marketplace](https://bettercodex-web.companion-inc.workers.dev) comes from this repo. There is no upload form and no "submit an issue" — you add your mod with a **pull request**, CI checks it, a maintainer merges, and it's live. This repo is intentionally separate from the BetterCodex app code so the registry stays community‑owned.
+Everything in the [BetterCodex marketplace](https://bettercodex-web.companion-inc.workers.dev) comes from this repo. There is no upload form and no "submit an issue" — you add your plugin with a **pull request**, CI checks it, a maintainer merges, and it's live. This repo is intentionally separate from the BetterCodex app code so the registry stays community‑owned.
 
-## Mod types
+## Plugin types
 
 | Type | File | What it is | How it runs |
 |------|------|------------|-------------|
 | **Theme** | `*.theme.css` | CSS that restyles Codex | Loaded by the BetterCodex client |
-| **Plugin** | `*.plugin.js` | A UI/behavior mod | Loaded by the BetterCodex client |
+| **Plugin** | `*.plugin.js` | A UI/behavior plugin | Loaded by the BetterCodex client |
 | **Skill** | `SKILL.md` | A Codex AI skill | Installed via Codex's own marketplace |
 
 New to authoring? Start with a **theme** — it's just CSS and the fastest way to ship.
 
-## Submit a mod in 3 steps
+## Submit a plugin in 3 steps
 
 1. **Fork** this repo and add a folder:
    ```
@@ -40,7 +40,7 @@ addons/<type>s/<id>/manifest.json   ← you add this in a PR
         ▼
    catalog.json                     ← generated, committed
         │
-   raw.githubusercontent.com/companion-inc/bettercodex-mods/main/catalog.json
+   raw.githubusercontent.com/companion-inc/bettercodex-plugins/main/catalog.json
         ▼
    BetterCodex marketplace site + desktop client
 ```
@@ -48,8 +48,8 @@ addons/<type>s/<id>/manifest.json   ← you add this in a PR
 Skills additionally install through Codex directly:
 
 ```bash
-codex plugin marketplace add companion-inc/bettercodex-mods
-codex plugin add <skill-name>@bettercodex-mods
+codex plugin marketplace add companion-inc/bettercodex-plugins
+codex plugin add <skill-name>@bettercodex-plugins
 ```
 
 ## Local checks

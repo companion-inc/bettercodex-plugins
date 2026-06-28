@@ -4,21 +4,21 @@
   "description": "A starter pack of practical Codex skills from the BetterCodex community.",
   "author": {
     "name": "BetterCodex",
-    "url": "https://github.com/companion-inc/bettercodex-mods"
+    "url": "https://github.com/companion-inc/bettercodex-plugins"
   },
-  "homepage": "https://github.com/companion-inc/bettercodex-mods",
-  "repository": "https://github.com/companion-inc/bettercodex-mods",
+  "homepage": "https://github.com/companion-inc/bettercodex-plugins",
+  "repository": "https://github.com/companion-inc/bettercodex-plugins",
   "license": "MIT",
   "keywords": ["bettercodex", "codex", "skills", "workflow"],
   "skills": "./skills/",
   "interface": {
     "displayName": "BetterCodex Skills",
     "shortDescription": "Practical Codex skills for everyday coding work.",
-    "longDescription": "Repo onboarding, session checkpoints, PR-ready commits, and test-first bug fixing — installable through BetterCodex Mods.",
+    "longDescription": "Repo onboarding, session checkpoints, PR-ready commits, and test-first bug fixing — installable through BetterCodex Plugins.",
     "developerName": "BetterCodex",
     "category": "Productivity",
     "capabilities": ["Write", "Interactive"],
-    "websiteURL": "https://github.com/companion-inc/bettercodex-mods",
+    "websiteURL": "https://github.com/companion-inc/bettercodex-plugins",
     "brandColor": "#2b7fff"
   }
 }

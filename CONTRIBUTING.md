@@ -1,10 +1,10 @@
-# Contributing a mod
+# Contributing a plugin
 
 Adding a plugin, theme, or skill to the BetterCodex marketplace is a pull request to this repo. This page is the full walkthrough; the per‑type guides in [`docs/`](docs) cover how to actually write each kind.
 
 ## 1. Pick an id and a folder
 
-Every mod lives in its own folder named with a lowercase, kebab‑case id:
+Every plugin lives in its own folder named with a lowercase, kebab‑case id:
 
 ```
 addons/themes/<id>/                 # a theme
@@ -74,7 +74,7 @@ Push your fork and open a PR. CI runs [`npm run check`](.github/workflows/valida
 - `validate` — every manifest has the required fields, the id is well‑formed, the file exists and is named correctly (`*.theme.css` / `*.plugin.js`), and a skill has a `SKILL.md`.
 - `build --check` — `catalog.json` matches the registry (so you didn't forget step 3).
 
-If CI is green and a maintainer approves, the merge publishes your mod to the marketplace within a few minutes.
+If CI is green and a maintainer approves, the merge publishes your plugin to the marketplace within a few minutes.
 
 ## Review bar
 
@@ -82,6 +82,6 @@ If CI is green and a maintainer approves, the merge publishes your mod to the ma
 - No obfuscation, no exfiltration of tokens/files, no network calls the description doesn't mention.
 - Themes use Codex's design tokens where possible (see the [theme guide](docs/authoring-themes.md)).
 
-## Updating or removing a mod
+## Updating or removing a plugin
 
 Open a PR that bumps `version` and edits the file, or deletes the folder. Same checks apply.

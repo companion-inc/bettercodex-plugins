@@ -1,6 +1,6 @@
 # Build a theme
 
-A theme is a single `*.theme.css` file. BetterCodex injects it into Codex through a constructable stylesheet (it bypasses Codex's content‑security policy), so plain CSS works and you don't need any build step. Themes are the fastest mod to ship.
+A theme is a single `*.theme.css` file. BetterCodex injects it into Codex through a constructable stylesheet (it bypasses Codex's content‑security policy), so plain CSS works and you don't need any build step. Themes are the fastest kind to ship.
 
 ## Target Codex's design tokens
 
