@@ -1,0 +1,20 @@
+{
+  "name": "bettercodex-store",
+  "interface": {
+    "displayName": "BetterCodex Store"
+  },
+  "plugins": [
+    {
+      "name": "bettercodex-skills",
+      "source": {
+        "source": "local",
+        "path": "./bettercodex-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "NONE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "skill",
+  "name": "PR Ready",
+  "description": "Turn a messy working tree into clean, single-purpose commits and a tight, reviewable PR description.",
+  "author": "BetterCodex",
+  "version": "1.0.0",
+  "tags": ["git", "review", "workflow"]
+}

@@ -1,5 +1,78 @@
 {
   "schemaVersion": 1,
   "generatedAt": "generated",
-  "addons": []
+  "addons": [
+    {
+      "id": "failing-test-first",
+      "type": "skill",
+      "name": "Failing Test First",
+      "description": "Reproduce a bug with the smallest failing test before fixing, so the fix is proven and can't silently regress.",
+      "author": "BetterCodex",
+      "version": "1.0.0",
+      "tags": [
+        "testing",
+        "debugging",
+        "workflow"
+      ],
+      "homepageUrl": null,
+      "updatedAt": "2026-06-28",
+      "sourceUrl": "https://github.com/companion-inc/bettercodex-store/tree/main/bettercodex-skills/skills/failing-test-first",
+      "install": "codex plugin marketplace add companion-inc/bettercodex-store",
+      "skillPath": "bettercodex-skills/skills/failing-test-first"
+    },
+    {
+      "id": "pr-ready",
+      "type": "skill",
+      "name": "PR Ready",
+      "description": "Turn a messy working tree into clean, single-purpose commits and a tight, reviewable PR description.",
+      "author": "BetterCodex",
+      "version": "1.0.0",
+      "tags": [
+        "git",
+        "review",
+        "workflow"
+      ],
+      "homepageUrl": null,
+      "updatedAt": "2026-06-28",
+      "sourceUrl": "https://github.com/companion-inc/bettercodex-store/tree/main/bettercodex-skills/skills/pr-ready",
+      "install": "codex plugin marketplace add companion-inc/bettercodex-store",
+      "skillPath": "bettercodex-skills/skills/pr-ready"
+    },
+    {
+      "id": "repo-warmup",
+      "type": "skill",
+      "name": "Repo Warmup",
+      "description": "Orient in an unfamiliar repo from its own files and print an exact first-run checklist plus a code map.",
+      "author": "BetterCodex",
+      "version": "1.0.0",
+      "tags": [
+        "onboarding",
+        "workflow",
+        "productivity"
+      ],
+      "homepageUrl": null,
+      "updatedAt": "2026-06-28",
+      "sourceUrl": "https://github.com/companion-inc/bettercodex-store/tree/main/bettercodex-skills/skills/repo-warmup",
+      "install": "codex plugin marketplace add companion-inc/bettercodex-store",
+      "skillPath": "bettercodex-skills/skills/repo-warmup"
+    },
+    {
+      "id": "thread-checkpoint",
+      "type": "skill",
+      "name": "Thread Checkpoint",
+      "description": "Save a compact, resume-ready checkpoint of the current session so work survives long threads, resets, and handoffs.",
+      "author": "BetterCodex",
+      "version": "1.0.0",
+      "tags": [
+        "workflow",
+        "context",
+        "productivity"
+      ],
+      "homepageUrl": null,
+      "updatedAt": "2026-06-28",
+      "sourceUrl": "https://github.com/companion-inc/bettercodex-store/tree/main/bettercodex-skills/skills/thread-checkpoint",
+      "install": "codex plugin marketplace add companion-inc/bettercodex-store",
+      "skillPath": "bettercodex-skills/skills/thread-checkpoint"
+    }
+  ]
 }

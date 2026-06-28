@@ -4,10 +4,12 @@ A skill is a Codex‑native capability: a `SKILL.md` (instructions Codex follows
 
 ## Folder layout
 
+Skills live inside the Codex plugin package so the whole repo is installable with `codex plugin marketplace add`:
+
 ```
-addons/skills/repo-warmup/
-  manifest.json
-  SKILL.md
+bettercodex-skills/skills/repo-warmup/
+  manifest.json       # marketplace metadata (name, tags, ...)
+  SKILL.md            # the skill itself (Codex reads this)
   scripts/            # optional helpers your SKILL.md calls
 ```
 
@@ -58,4 +60,4 @@ codex plugin add repo-warmup@bettercodex-store
 
 ## Submit it
 
-Add the folder and open a PR — see [CONTRIBUTING.md](../CONTRIBUTING.md). CI checks that your skill folder has a `SKILL.md` and a valid manifest.
+Add your folder under `bettercodex-skills/skills/<id>/`, run `npm run build` to refresh `catalog.json`, and open a PR — see [CONTRIBUTING.md](../CONTRIBUTING.md). CI checks that your skill folder has a `SKILL.md` and a valid manifest.

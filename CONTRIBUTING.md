@@ -7,9 +7,9 @@ Adding a plugin, theme, or skill to the BetterCodex marketplace is a pull reques
 Every mod lives in its own folder named with a lowercase, kebab‑case id:
 
 ```
-addons/themes/<id>/      # a theme
-addons/plugins/<id>/     # a plugin
-addons/skills/<id>/      # a skill
+addons/themes/<id>/                 # a theme
+addons/plugins/<id>/                # a plugin
+bettercodex-skills/skills/<id>/     # a skill (inside the Codex plugin package)
 ```
 
 The id is what users and the catalog reference, so make it specific: `midnight`, `compact-sidebar`, `repo-warmup`.
@@ -53,7 +53,7 @@ addons/themes/midnight/
 ```
 
 ```
-addons/skills/repo-warmup/
+bettercodex-skills/skills/repo-warmup/
   manifest.json
   SKILL.md
 ```
