@@ -3,6 +3,42 @@
   "generatedAt": "generated",
   "addons": [
     {
+      "id": "codex-scratchpad",
+      "type": "plugin",
+      "name": "Codex Scratchpad",
+      "description": "A persistent local scratchpad for notes, constraints, and reusable context that can be inserted into the Codex composer.",
+      "author": "Companion",
+      "version": "0.1.0",
+      "tags": [
+        "notes",
+        "workflow",
+        "utility"
+      ],
+      "homepageUrl": null,
+      "updatedAt": "2026-06-29",
+      "sourceUrl": "https://github.com/companion-inc/bettercodex-plugins/tree/main/addons/plugins/codex-scratchpad",
+      "fileName": "codex-scratchpad.plugin.js",
+      "downloadUrl": "https://raw.githubusercontent.com/companion-inc/bettercodex-plugins/main/addons/plugins/codex-scratchpad/codex-scratchpad.plugin.js"
+    },
+    {
+      "id": "codex-workflow-kit",
+      "type": "plugin",
+      "name": "Codex Workflow Kit",
+      "description": "One-click workflow prompts for debugging, reviews, pull requests, research, and thread checkpoints.",
+      "author": "Companion",
+      "version": "0.1.0",
+      "tags": [
+        "workflow",
+        "developer",
+        "utility"
+      ],
+      "homepageUrl": null,
+      "updatedAt": "2026-06-29",
+      "sourceUrl": "https://github.com/companion-inc/bettercodex-plugins/tree/main/addons/plugins/codex-workflow-kit",
+      "fileName": "codex-workflow-kit.plugin.js",
+      "downloadUrl": "https://raw.githubusercontent.com/companion-inc/bettercodex-plugins/main/addons/plugins/codex-workflow-kit/codex-workflow-kit.plugin.js"
+    },
+    {
       "id": "failing-test-first",
       "type": "skill",
       "name": "Failing Test First",
@@ -37,24 +73,6 @@
       "sourceUrl": "https://github.com/companion-inc/bettercodex-plugins/tree/main/addons/themes/focus-contrast",
       "fileName": "focus-contrast.theme.css",
       "downloadUrl": "https://raw.githubusercontent.com/companion-inc/bettercodex-plugins/main/addons/themes/focus-contrast/focus-contrast.theme.css"
-    },
-    {
-      "id": "hello-codex",
-      "type": "plugin",
-      "name": "Hello Codex",
-      "description": "Adds a small BetterCodex launcher button that proves plugins can render UI, show toasts, and persist local state.",
-      "author": "BetterCodex",
-      "version": "1.0.0",
-      "tags": [
-        "starter",
-        "ui",
-        "example"
-      ],
-      "homepageUrl": null,
-      "updatedAt": "2026-06-29",
-      "sourceUrl": "https://github.com/companion-inc/bettercodex-plugins/tree/main/addons/plugins/hello-codex",
-      "fileName": "hello-codex.plugin.js",
-      "downloadUrl": "https://raw.githubusercontent.com/companion-inc/bettercodex-plugins/main/addons/plugins/hello-codex/hello-codex.plugin.js"
     },
     {
       "id": "pr-ready",

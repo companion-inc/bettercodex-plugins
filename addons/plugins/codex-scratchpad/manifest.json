@@ -1,0 +1,10 @@
+{
+  "type": "plugin",
+  "name": "Codex Scratchpad",
+  "description": "A persistent local scratchpad for notes, constraints, and reusable context that can be inserted into the Codex composer.",
+  "author": "Companion",
+  "version": "0.1.0",
+  "tags": ["notes", "workflow", "utility"],
+  "file": "codex-scratchpad.plugin.js",
+  "updatedAt": "2026-06-29"
+}
