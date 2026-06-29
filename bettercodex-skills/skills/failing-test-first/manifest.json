@@ -4,5 +4,6 @@
   "description": "Reproduce a bug with the smallest failing test before fixing, so the fix is proven and can't silently regress.",
   "author": "BetterCodex",
   "version": "1.0.0",
+  "updatedAt": "2026-06-28",
   "tags": ["testing", "debugging", "workflow"]
 }

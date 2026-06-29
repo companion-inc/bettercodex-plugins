@@ -1,0 +1,11 @@
+{
+  "type": "plugin",
+  "name": "Hello Codex",
+  "description": "Adds a small BetterCodex launcher button that proves plugins can render UI, show toasts, and persist local state.",
+  "author": "BetterCodex",
+  "version": "1.0.0",
+  "tags": ["starter", "ui", "example"],
+  "file": "hello-codex.plugin.js",
+  "source": "https://github.com/companion-inc/bettercodex-plugins/tree/main/addons/plugins/hello-codex",
+  "updatedAt": "2026-06-29"
+}

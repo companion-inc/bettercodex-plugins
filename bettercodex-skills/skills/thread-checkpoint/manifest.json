@@ -4,5 +4,6 @@
   "description": "Save a compact, resume-ready checkpoint of the current session so work survives long threads, resets, and handoffs.",
   "author": "BetterCodex",
   "version": "1.0.0",
+  "updatedAt": "2026-06-28",
   "tags": ["workflow", "context", "productivity"]
 }

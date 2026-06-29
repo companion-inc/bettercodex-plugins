@@ -2,7 +2,7 @@
 
 A plugin is a single `*.plugin.js` file that the BetterCodex client loads. It exports a `start`/`stop` lifecycle and gets a small API (`BdApi`) for styling, storage, and notifications — the same shape BetterDiscord plugin authors know.
 
-> **How plugins run.** Codex's renderer is sandboxed with a strict content‑security policy, so a plugin is loaded and managed by the BetterCodex host rather than `eval`'d into the page. Keep plugins to the documented API; anything that needs deeper access should be a [skill](authoring-skills.md). All plugins are reviewed before merge.
+> **How plugins run.** Codex's renderer is sandboxed with a strict content‑security policy, so BetterCodex loads plugins through its managed runtime and exposes a small `BdApi` surface. Keep plugins to the documented API; anything that needs deeper access should be a [skill](authoring-skills.md). All plugins are reviewed before merge.
 
 ## File format
 

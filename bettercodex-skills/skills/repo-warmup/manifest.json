@@ -4,5 +4,6 @@
   "description": "Orient in an unfamiliar repo from its own files and print an exact first-run checklist plus a code map.",
   "author": "BetterCodex",
   "version": "1.0.0",
+  "updatedAt": "2026-06-28",
   "tags": ["onboarding", "workflow", "productivity"]
 }

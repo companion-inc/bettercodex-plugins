@@ -4,5 +4,6 @@
   "description": "Turn a messy working tree into clean, single-purpose commits and a tight, reviewable PR description.",
   "author": "BetterCodex",
   "version": "1.0.0",
+  "updatedAt": "2026-06-28",
   "tags": ["git", "review", "workflow"]
 }
